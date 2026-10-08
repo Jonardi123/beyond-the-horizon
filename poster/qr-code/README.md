@@ -1,14 +1,17 @@
-# QR destination gate
+# Verified exhibition QR code
 
-No QR code is supplied before GitHub Pages is publicly deployed and verified. The earlier owner-private Sites address must not be used for exhibition visitors.
+Destination: **https://jonardi123.github.io/beyond-the-horizon/**
 
-After publication is approved:
+This exact URL was returned by the GitHub Pages API after a successful deployment. It loaded anonymously, and all 37 local assets returned HTTP 200. The public website was also checked in a browser before this QR was generated.
 
-1. Read the real Pages URL from the repository's Pages API/deployment result.
-2. Confirm an anonymous HTTP request returns the website and browser QA succeeds.
-3. Record that exact URL and validation time in `deployment-verification.json`.
-4. Generate a standard QR code at error-correction level H, with a four-module quiet zone, using `python poster/build-poster.py --final`.
-5. Decode the separate PNG and a rasterization of the exported poster. Both must match the live URL exactly.
-6. Insert the QR as a separate element in the editable Canva design at 52 × 52 mm on white. Retain the complete quiet zone. Then export and validate Canva PDF Print.
+- `beyond-the-horizon-qr.png`: 980 × 980 px, black on white.
+- `beyond-the-horizon-qr.svg`: scalable version for print.
+- Error correction: **H**.
+- White quiet zone: **four modules on every edge**, included in each file.
+- Canva poster placement: **52 × 52 mm**, without stretching or cropping, inside a white panel.
+- `deployment-verification.json`: website, workflow, deployed commit, timestamps, and HTTP/browser evidence.
+- `qr-validation.json`: exact decoded PNG URL and validation time.
 
-The final poster must be withheld if any of these checks fail.
+The PNG and a rendered A2 layout PDF have both decoded to the exact live URL. The Canva PDF Print and PDF Standard exports have also passed decoding from rendered pages; see `../print/quality-assurance.json`. Keep the quiet zone intact, print at actual A2 size, and rescan a physical proof before a large print run.
+
+If the repository or website URL changes, verify the new live destination, generate a replacement, update the Canva master, and decode the new PDF export. Never substitute the earlier owner-private Sites address.

@@ -1,0 +1,65 @@
+{
+  "checked_at": "2026-10-08T15:20:06.424522+00:00",
+  "url": "https://jonardi123.github.io/beyond-the-horizon/",
+  "canva_design_id": "DAHXblGLpYk",
+  "saved_with_owner_preview_approval": true,
+  "canva_pdf_print_export": true,
+  "canva_pdf_standard_export": true,
+  "color_profile": "RGB; CMYK is a Canva Pro option; no printer profile supplied",
+  "bleed_mm": 0,
+  "page_size_corrected_without_scaling": true,
+  "photographs_dpi": 300,
+  "qr_in_print_pdf_dpi": 382,
+  "visual_review": "Passed: readable title, subtitle, five rows, comparison columns, conclusion, references, credits and QR; no text overflow.",
+  "physical_print_or_phone_camera_test": "Not performed; software decoded QR from both exported PDFs and images.",
+  "files": [
+    {
+      "file": "print/Beyond-the-Horizon-A2-Canva-Print.pdf",
+      "dimensions_mm": [
+        419.9999996111111,
+        594.0000008611111
+      ],
+      "pages": 1,
+      "vector_text": true,
+      "five_regions": true,
+      "qr_caption": true,
+      "bytes": 4899273,
+      "sha256": "f123991dfd493f6568ec4f259649393d1925499300de4b072698e5c90bc2eeac"
+    },
+    {
+      "file": "previews/Beyond-the-Horizon-A2-Canva-Preview.pdf",
+      "dimensions_mm": [
+        419.9999996111111,
+        594.0000008611111
+      ],
+      "pages": 1,
+      "vector_text": true,
+      "five_regions": true,
+      "qr_caption": true,
+      "bytes": 1058444,
+      "sha256": "a33291f197af8724963ff007339d7c4cae1add631941965cd9ff5b5a8fac1816"
+    }
+  ],
+  "qr_checks": [
+    {
+      "file": "print/Beyond-the-Horizon-A2-Canva-Print.pdf",
+      "decoded_url": "https://jonardi123.github.io/beyond-the-horizon/",
+      "valid": true
+    },
+    {
+      "file": "previews/Beyond-the-Horizon-A2-Canva-Preview.pdf",
+      "decoded_url": "https://jonardi123.github.io/beyond-the-horizon/",
+      "valid": true
+    },
+    {
+      "file": "qr-code/beyond-the-horizon-qr.png",
+      "decoded_url": "https://jonardi123.github.io/beyond-the-horizon/",
+      "valid": true
+    },
+    {
+      "file": "previews/Beyond-the-Horizon-A2-mobile.jpg",
+      "decoded_url": "https://jonardi123.github.io/beyond-the-horizon/",
+      "valid": true
+    }
+  ]
+}

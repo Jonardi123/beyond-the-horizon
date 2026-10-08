@@ -114,7 +114,7 @@ def verified_qr():
     qr=qrcode.QRCode(error_correction=qrcode.constants.ERROR_CORRECT_H,box_size=20,border=4)
     qr.add_data(url);qr.make(fit=True)
     png=ROOT/'qr-code/beyond-the-horizon-qr.png';qr.make_image(fill_color='black',back_color='white').save(png)
-    qr.make_image(image_factory=qrcode.image.svg.SvgPathImage).save(ROOT/'qr-code/beyond-the-horizon-qr.svg')
+    qr.make_image(image_factory=qrcode.image.svg.SvgPathFillImage).save(ROOT/'qr-code/beyond-the-horizon-qr.svg')
     result=zxingcpp.read_barcode(Image.open(png))
     if not result or result.text!=url: raise SystemExit('Generated QR did not decode to the verified live URL.')
     (ROOT/'qr-code/qr-validation.json').write_text(json.dumps({'url':url,'error_correction':'H','quiet_zone_modules':4,'size_mm':52,'decoded_png':result.text,'checked_at':datetime.now(timezone.utc).isoformat()},indent=2)+'\n')

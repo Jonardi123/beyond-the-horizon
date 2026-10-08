@@ -830,36 +830,6 @@
     "color": "#07121F"
   },
   {
-    "text": "QR AREA RESERVED",
-    "x_mm": 346,
-    "baseline_y_mm": 532,
-    "font": "Space Grotesk",
-    "size_pt": 9,
-    "weight": "500",
-    "style": "normal",
-    "color": "#07121F"
-  },
-  {
-    "text": "Awaiting a verified public",
-    "x_mm": 347,
-    "baseline_y_mm": 541.0,
-    "font": "DM Sans",
-    "size_pt": 9,
-    "weight": "400",
-    "style": "normal",
-    "color": "#586B7C"
-  },
-  {
-    "text": "website URL.",
-    "x_mm": 347,
-    "baseline_y_mm": 545.4,
-    "font": "DM Sans",
-    "size_pt": 9,
-    "weight": "400",
-    "style": "normal",
-    "color": "#586B7C"
-  },
-  {
     "text": "Discover the interactive expedition online.",
     "x_mm": 335,
     "baseline_y_mm": 569,
@@ -888,15 +858,5 @@
     "weight": "500",
     "style": "normal",
     "color": "#7ED5D7"
-  },
-  {
-    "text": "DESIGN PROOF / QR PENDING",
-    "x_mm": 317,
-    "baseline_y_mm": 589,
-    "font": "Space Grotesk",
-    "size_pt": 7.5,
-    "weight": "500",
-    "style": "normal",
-    "color": "#B8A5ED"
   }
 ]

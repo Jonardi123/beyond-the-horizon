@@ -6,9 +6,11 @@ A museum-inspired school exhibition about the benefits, risks, and responsibilit
 
 ## Exhibition status
 
-The GitHub account has been verified as **Jonardi123**. The requested public repository is `Jonardi123/beyond-the-horizon`. The owner approved public creation, source upload, and GitHub Pages activation on 8 October 2026. Deployment verification is in progress. No Pages URL or QR code is represented as live until publication and validation finish.
+**[Explore the live website](https://jonardi123.github.io/beyond-the-horizon/)** · **[Public repository](https://github.com/Jonardi123/beyond-the-horizon)**
 
-The A2 design proof is in `poster/previews/`. An actual editable Canva design has also been created privately. The QR panel is reserved until the deployed website is verified. Canva links and editing transactions are kept out of the public source tree.
+The owner approved public publication on 8 October 2026. GitHub Actions completed all five interaction tests, the production build, and Pages deployment successfully. Anonymous requests returned HTTP 200 for the website and all 37 cached local assets. The public site was checked in a browser for map navigation, quiz feedback, presentation keys and speaker notes, and a narrow phone layout.
+
+The real QR code in `poster/qr-code/` encodes that exact verified Pages URL. It uses error correction H and a four-module white quiet zone, and has been decoded successfully from the separate image and the A2 layout PDF. The editable Canva A2 master was saved with the owner's preview approval and remains private. Both Canva PDF Print and PDF Standard exports passed content, A2 dimension, and QR decoding checks. Owner editing links are kept out of this public source tree. Final print, preview, QR, and verification files are organized under `poster/`; see `poster/README.md`.
 
 ## Run locally
 
@@ -52,7 +54,7 @@ The committed workflow `.github/workflows/deploy.yml`:
 
 Use **Settings → Pages → Build and deployment → Source → GitHub Actions**. Normal changes to `main` trigger publication; documentation and poster-only changes do not rebuild the site. The workflow can also be started manually. Official actions are pinned to verified commit SHAs.
 
-After publication, obtain the actual URL from GitHub's Pages/deployment result and check it anonymously in a browser before encoding it in a QR code. `DEPLOYMENT.md` records the approval and verification process.
+The live URL above was obtained from GitHub's Pages API and checked anonymously before QR generation. After future URL changes, repeat those checks and replace the QR code in the Canva master. `DEPLOYMENT.md` records the approval and verification process.
 
 ## Mobile and classroom use
 

@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "file": "print/Beyond-the-Horizon-A2-Canva-Print.pdf",
+      "original": "print/originals/Beyond-the-Horizon-A2-Canva-Print.pdf",
+      "canva_export_mm": [
+        419.89374999999995,
+        593.9895653416665
+      ],
+      "final_a2_mm": [
+        419.9999996111111,
+        594.0000008611111
+      ],
+      "scaled_content": false,
+      "color_profile": "RGB",
+      "bleed_mm": 0,
+      "bytes": 4899273
+    },
+    {
+      "file": "previews/Beyond-the-Horizon-A2-Canva-Preview.pdf",
+      "original": "previews/originals/Beyond-the-Horizon-A2-Canva-Preview.pdf",
+      "canva_export_mm": [
+        419.89374999999995,
+        593.9895653416665
+      ],
+      "final_a2_mm": [
+        419.9999996111111,
+        594.0000008611111
+      ],
+      "scaled_content": false,
+      "color_profile": "RGB",
+      "bleed_mm": 0,
+      "bytes": 1058444
+    }
+  ]
+}

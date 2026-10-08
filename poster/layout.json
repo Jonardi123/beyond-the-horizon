@@ -4,9 +4,10 @@
     "height_mm": 594,
     "orientation": "portrait",
     "bleed_mm": 0,
-    "safe_margin_mm": 14
+    "safe_margin_mm": 14,
+    "safe_margin_note": "Primary content has 14 mm side margins; small bottom source credits retain about 5 mm."
   },
-  "status": "Editable Canva A2 proof created. Public GitHub publication approved; the final QR requires verified GitHub Pages deployment.",
+  "status": "Final editable Canva A2 master saved with owner approval. Canva PDF Print and PDF Standard exports passed exact-A2, content, and QR checks.",
   "colors": {
     "background": "#07121F",
     "card": "#102132",
@@ -73,7 +74,7 @@
     "error_correction": "H",
     "quiet_zone_modules": 4,
     "background": "#FFFFFF",
-    "status": "EMPTY UNTIL VERIFIED LIVE URL"
+    "status": "VERIFIED: https://jonardi123.github.io/beyond-the-horizon/"
   },
   "layer_groups": [
     "Background",
@@ -96,5 +97,23 @@
     "Sources and credits"
   ],
   "editing_rule": "Keep each text block, photo, separator, and QR element separate. Do not use a flattened full-poster image as the Canva design.",
-  "print_rule": "Final Canva export: PDF Print, A2 trim, no crop marks or bleed unless the printer requests them. If bleed is requested, extend background and photography into bleed while retaining the A2 TrimBox. Use CMYK only with the printer's supported workflow."
+  "print_rule": "Final Canva export: PDF Print, A2 trim, no crop marks or bleed unless the printer requests them. If bleed is requested, extend background and photography into bleed while retaining the A2 TrimBox. Use CMYK only with the printer's supported workflow.",
+  "canva_master": {
+    "title_font": "Archivo Black",
+    "body_font": "Open Sans",
+    "region_heading_font": "IBM Plex Sans Condensed",
+    "title_box_px": {
+      "left": 52.913,
+      "top": 87,
+      "width": 1040,
+      "font_size": 120
+    },
+    "subtitle_box_px": {
+      "left": 52.913,
+      "top": 352,
+      "width": 1100,
+      "font_size": 25
+    },
+    "note": "PDF preparation uses the website fonts. Canva master has separate editable header text boxes and platform font substitutions."
+  }
 }

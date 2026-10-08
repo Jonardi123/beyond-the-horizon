@@ -2,9 +2,22 @@
 
 Verified account: **Jonardi123**. Requested new repository: **beyond-the-horizon**.
 
-## Current gate
+## Verified public deployment
 
-The owner explicitly approved public creation and publication on 8 October 2026. Deployment and URL verification are in progress. The website and poster preparation are reviewable locally. No public GitHub repository, live Pages URL, or final QR is claimed at this stage.
+The owner explicitly approved public creation and publication on **8 October 2026**.
+
+- Public repository: https://github.com/Jonardi123/beyond-the-horizon
+- Verified Pages URL, returned by GitHub: https://jonardi123.github.io/beyond-the-horizon/
+- Successful workflow: https://github.com/Jonardi123/beyond-the-horizon/actions/runs/37795890432
+- Deployed application commit: `294e41c5d435df2b1afaa325a1de1f83fd8cb5d0`
+- Production build and all five interaction tests passed locally and in GitHub Actions.
+- Anonymous HTTP checks: website and all 37 cached local assets returned 200.
+- Browser checks: map/content selection, quiz feedback, presentation keys and notes, close/return, narrow mobile layout, and offline-ready status passed.
+- QR image and A2 layout PDF rendering both decode to the verified URL exactly.
+
+Details and UTC timestamps are in `poster/qr-code/deployment-verification.json` and `qr-validation.json`. Physical iOS Safari and Android devices were not available; Chromium viewport checks do not claim physical-device testing.
+
+The final Canva master was saved after the owner's explicit preview approval. PDF Print and PDF Standard exports are complete. Both passed exact A2 boundary checks, text/content checks, and decoding from rendered PDF pages. The PNG and mobile JPG also decode correctly. `poster/print/quality-assurance.json` records the results.
 
 ## Approved release procedure
 
@@ -21,3 +34,9 @@ The owner explicitly approved public creation and publication on 8 October 2026.
 11. Export Canva PDF Print and a small preview. Inspect trim dimensions, resolution, text, and QR decoding. No QR poster is final until these checks pass.
 
 The Canva design stays owner-private unless its audience is explicitly approved for a change. No collaborator invitation, public Canva share, print order, or paid service is part of this release.
+
+## Print release
+
+The delivered `poster/print/Beyond-the-Horizon-A2-Canva-Print.pdf` is the actual Canva **PDF Print** export with its page boundary normalized to exact A2. Canva rounds the preset to 1587 × 2245 px, so its untouched export measured 419.894 × 593.990 mm. The preflight adds only the missing navy edge area and exact A2 page boxes; text, photographs, and QR are not scaled. Untouched exports are preserved in each `originals/` folder.
+
+Print photographs are 300 dpi, the QR is 382 dpi, and text remains vector. The file is RGB because Canva lists CMYK as a Pro option and no printer profile was supplied. No crop marks or bleed were added. The smaller Canva PDF Standard preview is about 1 MB. Physical device, camera, and paper-print checks were not available; those are separate from the successful software checks.

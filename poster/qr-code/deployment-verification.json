@@ -1,0 +1,169 @@
+{
+  "url": "https://jonardi123.github.io/beyond-the-horizon/",
+  "repository": "https://github.com/Jonardi123/beyond-the-horizon",
+  "workflow_run": "https://github.com/Jonardi123/beyond-the-horizon/actions/runs/37795890432",
+  "deployed_commit": "294e41c5d435df2b1afaa325a1de1f83fd8cb5d0",
+  "browser_verified": true,
+  "anonymous_http_verified": true,
+  "checked_at": "2026-10-08T14:59:11.606016+00:00",
+  "asset_checks": [
+    {
+      "path": "/beyond-the-horizon/",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/Beyond-the-Horizon.pdf",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/cormorant-garamond-latin-500-italic-DhNIfkTX.woff",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/cormorant-garamond-latin-500-italic-Y14P-dkT.woff2",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/dm-sans-latin-400-normal-BwCSEQnW.woff",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/dm-sans-latin-400-normal-CW0RaeGs.woff2",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/dm-sans-latin-500-normal-B9HHJjqV.woff2",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/dm-sans-latin-500-normal-Dr3UlScf.woff",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/dm-sans-latin-600-normal-Aqo67rzb.woff2",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/dm-sans-latin-600-normal-BmdmIIQ2.woff",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/earth.webp",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/index-BubN30zJ.js",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/index-Mxm4i3rD.css",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/mobile/earth.webp",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/mobile/mountain.webp",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/mobile/ocean.webp",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/mobile/polar.webp",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/mobile/rainforest.webp",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/mobile/space.webp",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/motion-CsHz8RPk.js",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/mountain.webp",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/ocean.webp",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/polar.webp",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/rainforest.webp",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/react-vendor-CJpOSA4X.js",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/space-grotesk-latin-400-normal-BnQMeOim.woff",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/space-grotesk-latin-400-normal-CJ-V5oYT.woff2",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/space-grotesk-latin-500-normal-CNSSEhBt.woff",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/space-grotesk-latin-500-normal-lFbtlQH6.woff2",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/space-grotesk-latin-600-normal-BflQw4A9.woff",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/space-grotesk-latin-600-normal-DjKNqYRj.woff2",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/space-grotesk-latin-700-normal-CwsQ-cCU.woff",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/space-grotesk-latin-700-normal-RjhwGPKo.woff2",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/space.webp",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/assets/world-land.json",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/favicon.svg",
+      "status": 200
+    },
+    {
+      "path": "/beyond-the-horizon/index.html",
+      "status": 200
+    }
+  ],
+  "browser_checks": [
+    "Page renders publicly",
+    "Map selects deep ocean and its matching content",
+    "Narrow phone layout has no horizontal overflow or missing loaded images",
+    "Quiz gives correct immediate feedback and locks the answer",
+    "Presentation opens in full screen, Right advances the slide, N opens matching speaker notes",
+    "Close presentation returns to website",
+    "Offline cache ready status appears"
+  ],
+  "device_limit": "Chromium browser and viewport checks; physical iOS Safari and Android devices were not available."
+}
