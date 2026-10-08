@@ -28,3 +28,7 @@ h4{font-family:var(--heading);margin:0;font-weight:500}em{font-family:'Cormorant
 .kit-tools>a{display:flex;align-items:center;gap:10px;font-size:13px;color:#c6dceb;align-self:flex-start}.kit-tools>a:hover{color:var(--cyan)}
 @media(min-width:1151px){.hero h1{font-size:clamp(58px,6.3vw,100px)}.hero-body{padding-block:44px 32px}}
 .site-footer button{min-height:34px;padding-block:6px}
+
+/* Smaller images and lighter effects on exhibition phones. */
+@media(max-width:560px){.hero-photo{position:absolute;inset:0;z-index:-3;background-image:linear-gradient(90deg,rgba(5,10,18,.94) 0%,rgba(5,10,18,.66) 33%,rgba(5,10,18,.15) 70%),linear-gradient(0deg,#080d16 1%,rgba(8,13,22,.2) 35%,rgba(8,13,22,.13) 80%,#080d16 100%),url('/assets/mobile/earth.webp');background-position:center,center,center 46%;background-size:cover}.hero-grain{display:none}.atmosphere>span:nth-child(n+8){display:none}.presentation{height:100dvh}.presentation-workspace{overscroll-behavior:contain}.presentation-topbar{padding-top:max(8px,env(safe-area-inset-top))}.presentation-controls{padding-bottom:max(12px,env(safe-area-inset-bottom))}}
+@media(hover:none){.frontier-card-photo{transition:none}.frontier-card:hover .frontier-card-photo{transform:none}.button-glass,.header-present{backdrop-filter:none;-webkit-backdrop-filter:none}}

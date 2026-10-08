@@ -1,0 +1,57 @@
+{
+  "title": "BEYOND THE HORIZON",
+  "subtitle": "Exploring the Unknown: From the Deepest Oceans to the Distant Stars",
+  "question": "FIVE ENVIRONMENTS. ONE QUESTION: IS THE DISCOVERY WORTH THE RISK?",
+  "conclusion": "Exploration helps us understand our world and discover what lies beyond it. Although it involves risks and costs, responsible exploration creates knowledge and opportunities for future generations.",
+  "definition": "Scientific exploration asks questions, collects evidence, and shares knowledge. It has a research purpose; tourism and recreation have other goals.",
+  "cta": "SCAN TO EXPLORE",
+  "cta_caption": "Discover the interactive expedition online.",
+  "credit": "A GRADE 10 ENGLISH EXPLORATION PROJECT / ALBANIA",
+  "regions": [
+    {
+      "id": "space", "number": "01", "title": "SPACE", "annotation": "THE MOON & MARS / ROBOTIC MISSIONS", "color": "#B8A5ED",
+      "advantages": "New discoveries, scientific knowledge, and better technology.",
+      "disadvantages": "Radiation, high costs, and dangerous missions.",
+      "solution": "Protect crews with tested shielding; use robotic scouts.",
+      "note": "Protection reduces risk; it cannot remove it.",
+      "photo_caption": "Apollo 17, 1972 / NASA",
+      "sources": ["https://www.nasa.gov/mission/apollo-11/", "https://www.nasa.gov/humans-in-space/space-radiation-wont-stop-nasas-human-exploration/"]
+    },
+    {
+      "id": "ocean", "number": "02", "title": "DEEP OCEAN", "annotation": "BELOW THE SURFACE / LIFE IN THE DARK", "color": "#79CBE7",
+      "advantages": "Discover marine life and understand deep ecosystems.",
+      "disadvantages": "Extreme pressure and damage to fragile habitats.",
+      "solution": "Use pressure-tested, remotely operated underwater vehicles.",
+      "note": "ROVs let people study the deep ocean from a ship.",
+      "photo_caption": "Atolla jellyfish, 880 m / NOAA",
+      "sources": ["https://oceanexplorer.noaa.gov/explainers/technology/", "https://oceanservice.noaa.gov/facts/vents.html/volcanoes.html"]
+    },
+    {
+      "id": "polar", "number": "03", "title": "ANTARCTICA", "annotation": "ICE CORES / CLUES TO PAST CLIMATE", "color": "#B9D9EB",
+      "advantages": "Study past climate, changing ice, and polar environments.",
+      "disadvantages": "Freezing temperatures, storms, and isolation.",
+      "solution": "Use specialized equipment and international cooperation.",
+      "note": "Air bubbles in ice preserve samples of the past atmosphere.",
+      "photo_caption": "Livingston Island / Anne Dirkse / CC BY-SA 4.0",
+      "sources": ["https://legacy.bas.ac.uk/bas_research/science_briefings/icecorebriefing.php", "https://www.bas.ac.uk/about/where-we-work/environmental-protection/"]
+    },
+    {
+      "id": "rainforest", "number": "04", "title": "RAINFORESTS", "annotation": "BIODIVERSITY / A CONNECTED LIVING WORLD", "color": "#9AD8B0",
+      "advantages": "Discover biodiversity and understand how forests work.",
+      "disadvantages": "Disease, difficult terrain, and ecological disturbance.",
+      "solution": "Use remote sensing, small teams, and responsible research.",
+      "note": "Respect local communities and their knowledge.",
+      "photo_caption": "Queensland / Robert Kerton, CSIRO / CC BY 3.0",
+      "sources": ["https://stri.si.edu/discipline/biodiversity", "https://www.kew.org/science/our-science/departments/ecosystem-stewardship/spatial-analysis-and-data-science"]
+    },
+    {
+      "id": "mountain", "number": "05", "title": "MOUNTAINS", "annotation": "THE HIMALAYAS / SCIENCE & MOUNTAINEERING", "color": "#E4BA98",
+      "advantages": "Improve maps and study glaciers and mountain environments.",
+      "disadvantages": "Avalanches, altitude sickness, and pollution.",
+      "solution": "Plan carefully, use rescue systems, and conserve habitats.",
+      "note": "A summit is optional. Returning safely matters more.",
+      "photo_caption": "Everest, Lhotse & Makalu / Gavin Challand",
+      "sources": ["https://www.nps.gov/dena/planyourvisit/part2medicalissues.htm", "https://www.rgs.org/our-collections/buy-and-license-images/platinum-prints/everest-1953"]
+    }
+  ]
+}

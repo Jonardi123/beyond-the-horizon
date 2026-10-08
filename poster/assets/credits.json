@@ -1,0 +1,56 @@
+[
+  {
+    "id": "space",
+    "file": "assets/space.jpg",
+    "credit": "NASA / Apollo 17",
+    "license": "Public domain",
+    "source": "https://science.nasa.gov/resource/apollo-17-landing-site-the-taurus-littrow-valley/",
+    "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "treatment": "Original resolution. Cropped within the layout only."
+  },
+  {
+    "id": "ocean",
+    "file": "assets/ocean.jpg",
+    "credit": "NOAA / Windows to the Deep 2018",
+    "license": "Public domain",
+    "source": "https://oceanexplorer.noaa.gov/multimedia/daily-image-media-20210319/",
+    "licenseUrl": "https://oceanexplorer.noaa.gov/faqs/",
+    "treatment": "Original resolution. Cropped within the layout only."
+  },
+  {
+    "id": "polar",
+    "file": "assets/polar.jpg",
+    "credit": "Anne Dirkse",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Blue_Ice_in_Antarctica.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "treatment": "Original resolution. Cropped within the layout only."
+  },
+  {
+    "id": "rainforest",
+    "file": "assets/rainforest.jpg",
+    "credit": "Robert Kerton / CSIRO",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_1336_Rainforest_Canopy.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "treatment": "Original resolution. Cropped within the layout only."
+  },
+  {
+    "id": "mountain",
+    "file": "assets/mountain.jpg",
+    "credit": "Gavin Challand",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Everest,_Lhotse_and_Makalu_from_Gokyo_Ri.jpg",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Everest,_Lhotse_and_Makalu_from_Gokyo_Ri.jpg#Licensing",
+    "treatment": "Original resolution. Cropped within the layout only."
+  },
+  {
+    "id": "earth",
+    "file": "assets/earth.jpg",
+    "credit": "NASA / Reid Wiseman / Artemis II",
+    "license": "Public domain",
+    "source": "https://www.nasa.gov/image-article/hello-world/",
+    "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "treatment": "Original resolution. Cropped within the layout only."
+  }
+]

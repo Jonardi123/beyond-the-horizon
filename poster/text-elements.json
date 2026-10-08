@@ -1,0 +1,902 @@
+[
+  {
+    "text": "ENGLISH / GRADE 10 / EXPLORATION",
+    "x_mm": 14,
+    "baseline_y_mm": 16,
+    "font": "Space Grotesk",
+    "size_pt": 10.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#7ED5D7"
+  },
+  {
+    "text": "BEYOND THE",
+    "x_mm": 14,
+    "baseline_y_mm": 47,
+    "font": "Space Grotesk",
+    "size_pt": 81,
+    "weight": "700",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "HORIZON",
+    "x_mm": 14,
+    "baseline_y_mm": 80,
+    "font": "Space Grotesk",
+    "size_pt": 105,
+    "weight": "700",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "Exploring the Unknown: From the Deepest Oceans to the Distant Stars",
+    "x_mm": 14,
+    "baseline_y_mm": 98,
+    "font": "Cormorant Garamond",
+    "size_pt": 18,
+    "weight": "400",
+    "style": "italic",
+    "color": "#7ED5D7"
+  },
+  {
+    "text": "FIVE ENVIRONMENTS. ONE QUESTION: IS THE DISCOVERY WORTH THE RISK?",
+    "x_mm": 14,
+    "baseline_y_mm": 123,
+    "font": "Space Grotesk",
+    "size_pt": 10.6,
+    "weight": "500",
+    "style": "normal",
+    "color": "#7ED5D7"
+  },
+  {
+    "text": "Apollo 17, 1972 / NASA",
+    "x_mm": 17,
+    "baseline_y_mm": 194.5,
+    "font": "DM Sans",
+    "size_pt": 7.5,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "01",
+    "x_mm": 118,
+    "baseline_y_mm": 148.0,
+    "font": "Space Grotesk",
+    "size_pt": 20,
+    "weight": "500",
+    "style": "normal",
+    "color": "#B8A5ED"
+  },
+  {
+    "text": "SPACE",
+    "x_mm": 133,
+    "baseline_y_mm": 148.0,
+    "font": "Space Grotesk",
+    "size_pt": 22,
+    "weight": "700",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "THE MOON & MARS / ROBOTIC MISSIONS",
+    "x_mm": 118,
+    "baseline_y_mm": 155.0,
+    "font": "Space Grotesk",
+    "size_pt": 9.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#B5C5D2"
+  },
+  {
+    "text": "ADVANTAGES",
+    "x_mm": 118,
+    "baseline_y_mm": 167.0,
+    "font": "Space Grotesk",
+    "size_pt": 10.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#A4DAB8"
+  },
+  {
+    "text": "New discoveries, scientific",
+    "x_mm": 118,
+    "baseline_y_mm": 175.0,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "knowledge, and better",
+    "x_mm": 118,
+    "baseline_y_mm": 181.4,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "technology.",
+    "x_mm": 118,
+    "baseline_y_mm": 187.8,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "DISADVANTAGES",
+    "x_mm": 218,
+    "baseline_y_mm": 167.0,
+    "font": "Space Grotesk",
+    "size_pt": 10.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#E9BC98"
+  },
+  {
+    "text": "Radiation, high costs, and",
+    "x_mm": 218,
+    "baseline_y_mm": 175.0,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "dangerous missions.",
+    "x_mm": 218,
+    "baseline_y_mm": 181.4,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "PROBLEM / SOLUTION",
+    "x_mm": 318,
+    "baseline_y_mm": 167.0,
+    "font": "Space Grotesk",
+    "size_pt": 10.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#7ED5D7"
+  },
+  {
+    "text": "Protect crews with tested",
+    "x_mm": 318,
+    "baseline_y_mm": 175.0,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "shielding; use robotic scouts.",
+    "x_mm": 318,
+    "baseline_y_mm": 181.4,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "Protection reduces risk; it cannot remove it.",
+    "x_mm": 118,
+    "baseline_y_mm": 194.0,
+    "font": "DM Sans",
+    "size_pt": 9.5,
+    "weight": "400",
+    "style": "normal",
+    "color": "#B5C5D2"
+  },
+  {
+    "text": "Atolla jellyfish, 880 m / NOAA",
+    "x_mm": 17,
+    "baseline_y_mm": 264.0,
+    "font": "DM Sans",
+    "size_pt": 7.5,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "02",
+    "x_mm": 118,
+    "baseline_y_mm": 217.5,
+    "font": "Space Grotesk",
+    "size_pt": 20,
+    "weight": "500",
+    "style": "normal",
+    "color": "#79CBE7"
+  },
+  {
+    "text": "DEEP OCEAN",
+    "x_mm": 133,
+    "baseline_y_mm": 217.5,
+    "font": "Space Grotesk",
+    "size_pt": 22,
+    "weight": "700",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "BELOW THE SURFACE / LIFE IN THE DARK",
+    "x_mm": 118,
+    "baseline_y_mm": 224.5,
+    "font": "Space Grotesk",
+    "size_pt": 9.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#B5C5D2"
+  },
+  {
+    "text": "ADVANTAGES",
+    "x_mm": 118,
+    "baseline_y_mm": 236.5,
+    "font": "Space Grotesk",
+    "size_pt": 10.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#A4DAB8"
+  },
+  {
+    "text": "Discover marine life and",
+    "x_mm": 118,
+    "baseline_y_mm": 244.5,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "understand deep ecosystems.",
+    "x_mm": 118,
+    "baseline_y_mm": 250.9,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "DISADVANTAGES",
+    "x_mm": 218,
+    "baseline_y_mm": 236.5,
+    "font": "Space Grotesk",
+    "size_pt": 10.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#E9BC98"
+  },
+  {
+    "text": "Extreme pressure and damage to",
+    "x_mm": 218,
+    "baseline_y_mm": 244.5,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "fragile habitats.",
+    "x_mm": 218,
+    "baseline_y_mm": 250.9,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "PROBLEM / SOLUTION",
+    "x_mm": 318,
+    "baseline_y_mm": 236.5,
+    "font": "Space Grotesk",
+    "size_pt": 10.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#7ED5D7"
+  },
+  {
+    "text": "Use pressure-tested, remotely",
+    "x_mm": 318,
+    "baseline_y_mm": 244.5,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "operated underwater vehicles.",
+    "x_mm": 318,
+    "baseline_y_mm": 250.9,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "ROVs let people study the deep ocean from a ship.",
+    "x_mm": 118,
+    "baseline_y_mm": 263.5,
+    "font": "DM Sans",
+    "size_pt": 9.5,
+    "weight": "400",
+    "style": "normal",
+    "color": "#B5C5D2"
+  },
+  {
+    "text": "Livingston Island / Anne Dirkse / CC BY-SA 4.0",
+    "x_mm": 17,
+    "baseline_y_mm": 333.5,
+    "font": "DM Sans",
+    "size_pt": 7.5,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "03",
+    "x_mm": 118,
+    "baseline_y_mm": 287.0,
+    "font": "Space Grotesk",
+    "size_pt": 20,
+    "weight": "500",
+    "style": "normal",
+    "color": "#B9D9EB"
+  },
+  {
+    "text": "ANTARCTICA",
+    "x_mm": 133,
+    "baseline_y_mm": 287.0,
+    "font": "Space Grotesk",
+    "size_pt": 22,
+    "weight": "700",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "ICE CORES / CLUES TO PAST CLIMATE",
+    "x_mm": 118,
+    "baseline_y_mm": 294.0,
+    "font": "Space Grotesk",
+    "size_pt": 9.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#B5C5D2"
+  },
+  {
+    "text": "ADVANTAGES",
+    "x_mm": 118,
+    "baseline_y_mm": 306.0,
+    "font": "Space Grotesk",
+    "size_pt": 10.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#A4DAB8"
+  },
+  {
+    "text": "Study past climate, changing ice,",
+    "x_mm": 118,
+    "baseline_y_mm": 314.0,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "and polar environments.",
+    "x_mm": 118,
+    "baseline_y_mm": 320.4,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "DISADVANTAGES",
+    "x_mm": 218,
+    "baseline_y_mm": 306.0,
+    "font": "Space Grotesk",
+    "size_pt": 10.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#E9BC98"
+  },
+  {
+    "text": "Freezing temperatures, storms,",
+    "x_mm": 218,
+    "baseline_y_mm": 314.0,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "and isolation.",
+    "x_mm": 218,
+    "baseline_y_mm": 320.4,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "PROBLEM / SOLUTION",
+    "x_mm": 318,
+    "baseline_y_mm": 306.0,
+    "font": "Space Grotesk",
+    "size_pt": 10.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#7ED5D7"
+  },
+  {
+    "text": "Use specialized equipment and",
+    "x_mm": 318,
+    "baseline_y_mm": 314.0,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "international cooperation.",
+    "x_mm": 318,
+    "baseline_y_mm": 320.4,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "Air bubbles in ice preserve samples of the past atmosphere.",
+    "x_mm": 118,
+    "baseline_y_mm": 333.0,
+    "font": "DM Sans",
+    "size_pt": 9.5,
+    "weight": "400",
+    "style": "normal",
+    "color": "#B5C5D2"
+  },
+  {
+    "text": "Queensland / Robert Kerton, CSIRO / CC BY 3.0",
+    "x_mm": 17,
+    "baseline_y_mm": 403.0,
+    "font": "DM Sans",
+    "size_pt": 7.5,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "04",
+    "x_mm": 118,
+    "baseline_y_mm": 356.5,
+    "font": "Space Grotesk",
+    "size_pt": 20,
+    "weight": "500",
+    "style": "normal",
+    "color": "#9AD8B0"
+  },
+  {
+    "text": "RAINFORESTS",
+    "x_mm": 133,
+    "baseline_y_mm": 356.5,
+    "font": "Space Grotesk",
+    "size_pt": 22,
+    "weight": "700",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "BIODIVERSITY / A CONNECTED LIVING WORLD",
+    "x_mm": 118,
+    "baseline_y_mm": 363.5,
+    "font": "Space Grotesk",
+    "size_pt": 9.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#B5C5D2"
+  },
+  {
+    "text": "ADVANTAGES",
+    "x_mm": 118,
+    "baseline_y_mm": 375.5,
+    "font": "Space Grotesk",
+    "size_pt": 10.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#A4DAB8"
+  },
+  {
+    "text": "Discover biodiversity and",
+    "x_mm": 118,
+    "baseline_y_mm": 383.5,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "understand how forests work.",
+    "x_mm": 118,
+    "baseline_y_mm": 389.9,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "DISADVANTAGES",
+    "x_mm": 218,
+    "baseline_y_mm": 375.5,
+    "font": "Space Grotesk",
+    "size_pt": 10.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#E9BC98"
+  },
+  {
+    "text": "Disease, difficult terrain, and",
+    "x_mm": 218,
+    "baseline_y_mm": 383.5,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "ecological disturbance.",
+    "x_mm": 218,
+    "baseline_y_mm": 389.9,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "PROBLEM / SOLUTION",
+    "x_mm": 318,
+    "baseline_y_mm": 375.5,
+    "font": "Space Grotesk",
+    "size_pt": 10.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#7ED5D7"
+  },
+  {
+    "text": "Use remote sensing, small teams,",
+    "x_mm": 318,
+    "baseline_y_mm": 383.5,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "and responsible research.",
+    "x_mm": 318,
+    "baseline_y_mm": 389.9,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "Respect local communities and their knowledge.",
+    "x_mm": 118,
+    "baseline_y_mm": 402.5,
+    "font": "DM Sans",
+    "size_pt": 9.5,
+    "weight": "400",
+    "style": "normal",
+    "color": "#B5C5D2"
+  },
+  {
+    "text": "Everest, Lhotse & Makalu / Gavin Challand",
+    "x_mm": 17,
+    "baseline_y_mm": 472.5,
+    "font": "DM Sans",
+    "size_pt": 7.5,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "05",
+    "x_mm": 118,
+    "baseline_y_mm": 426.0,
+    "font": "Space Grotesk",
+    "size_pt": 20,
+    "weight": "500",
+    "style": "normal",
+    "color": "#E4BA98"
+  },
+  {
+    "text": "MOUNTAINS",
+    "x_mm": 133,
+    "baseline_y_mm": 426.0,
+    "font": "Space Grotesk",
+    "size_pt": 22,
+    "weight": "700",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "THE HIMALAYAS / SCIENCE & MOUNTAINEERING",
+    "x_mm": 118,
+    "baseline_y_mm": 433.0,
+    "font": "Space Grotesk",
+    "size_pt": 9.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#B5C5D2"
+  },
+  {
+    "text": "ADVANTAGES",
+    "x_mm": 118,
+    "baseline_y_mm": 445.0,
+    "font": "Space Grotesk",
+    "size_pt": 10.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#A4DAB8"
+  },
+  {
+    "text": "Improve maps and study glaciers",
+    "x_mm": 118,
+    "baseline_y_mm": 453.0,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "and mountain environments.",
+    "x_mm": 118,
+    "baseline_y_mm": 459.4,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "DISADVANTAGES",
+    "x_mm": 218,
+    "baseline_y_mm": 445.0,
+    "font": "Space Grotesk",
+    "size_pt": 10.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#E9BC98"
+  },
+  {
+    "text": "Avalanches, altitude sickness,",
+    "x_mm": 218,
+    "baseline_y_mm": 453.0,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "and pollution.",
+    "x_mm": 218,
+    "baseline_y_mm": 459.4,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "PROBLEM / SOLUTION",
+    "x_mm": 318,
+    "baseline_y_mm": 445.0,
+    "font": "Space Grotesk",
+    "size_pt": 10.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#7ED5D7"
+  },
+  {
+    "text": "Plan carefully, use rescue",
+    "x_mm": 318,
+    "baseline_y_mm": 453.0,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "systems, and conserve habitats.",
+    "x_mm": 318,
+    "baseline_y_mm": 459.4,
+    "font": "DM Sans",
+    "size_pt": 16,
+    "weight": "400",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "A summit is optional. Returning safely matters more.",
+    "x_mm": 118,
+    "baseline_y_mm": 472.0,
+    "font": "DM Sans",
+    "size_pt": 9.5,
+    "weight": "400",
+    "style": "normal",
+    "color": "#B5C5D2"
+  },
+  {
+    "text": "OUR CONCLUSION",
+    "x_mm": 14,
+    "baseline_y_mm": 499,
+    "font": "Space Grotesk",
+    "size_pt": 10.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#7ED5D7"
+  },
+  {
+    "text": "Exploration helps us understand our world and discover what lies beyond it. Although it involves",
+    "x_mm": 14,
+    "baseline_y_mm": 511,
+    "font": "DM Sans",
+    "size_pt": 18,
+    "weight": "500",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "risks and costs, responsible exploration creates knowledge and opportunities for future",
+    "x_mm": 14,
+    "baseline_y_mm": 519,
+    "font": "DM Sans",
+    "size_pt": 18,
+    "weight": "500",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "generations.",
+    "x_mm": 14,
+    "baseline_y_mm": 527,
+    "font": "DM Sans",
+    "size_pt": 18,
+    "weight": "500",
+    "style": "normal",
+    "color": "#EDF4F8"
+  },
+  {
+    "text": "Scientific exploration asks questions, collects evidence, and shares knowledge. It has a research purpose; tourism and recreation have other goals.",
+    "x_mm": 14,
+    "baseline_y_mm": 552.0,
+    "font": "DM Sans",
+    "size_pt": 10.5,
+    "weight": "400",
+    "style": "normal",
+    "color": "#B5C5D2"
+  },
+  {
+    "text": "STAY CURIOUS / PLAN CAREFULLY / RESPECT NATURE",
+    "x_mm": 14,
+    "baseline_y_mm": 571,
+    "font": "Space Grotesk",
+    "size_pt": 10,
+    "weight": "500",
+    "style": "normal",
+    "color": "#7ED5D7"
+  },
+  {
+    "text": "SCAN TO EXPLORE",
+    "x_mm": 337,
+    "baseline_y_mm": 505,
+    "font": "Space Grotesk",
+    "size_pt": 15.5,
+    "weight": "700",
+    "style": "normal",
+    "color": "#07121F"
+  },
+  {
+    "text": "QR AREA RESERVED",
+    "x_mm": 346,
+    "baseline_y_mm": 532,
+    "font": "Space Grotesk",
+    "size_pt": 9,
+    "weight": "500",
+    "style": "normal",
+    "color": "#07121F"
+  },
+  {
+    "text": "Awaiting a verified public",
+    "x_mm": 347,
+    "baseline_y_mm": 541.0,
+    "font": "DM Sans",
+    "size_pt": 9,
+    "weight": "400",
+    "style": "normal",
+    "color": "#586B7C"
+  },
+  {
+    "text": "website URL.",
+    "x_mm": 347,
+    "baseline_y_mm": 545.4,
+    "font": "DM Sans",
+    "size_pt": 9,
+    "weight": "400",
+    "style": "normal",
+    "color": "#586B7C"
+  },
+  {
+    "text": "Discover the interactive expedition online.",
+    "x_mm": 335,
+    "baseline_y_mm": 569,
+    "font": "DM Sans",
+    "size_pt": 9.5,
+    "weight": "400",
+    "style": "normal",
+    "color": "#07121F"
+  },
+  {
+    "text": "SOURCES: NASA / NOAA / BRITISH ANTARCTIC SURVEY / SMITHSONIAN / KEW / NPS / RGS",
+    "x_mm": 14,
+    "baseline_y_mm": 583,
+    "font": "DM Sans",
+    "size_pt": 8,
+    "weight": "400",
+    "style": "normal",
+    "color": "#B5C5D2"
+  },
+  {
+    "text": "A GRADE 10 ENGLISH EXPLORATION PROJECT / ALBANIA",
+    "x_mm": 14,
+    "baseline_y_mm": 589,
+    "font": "Space Grotesk",
+    "size_pt": 8,
+    "weight": "500",
+    "style": "normal",
+    "color": "#7ED5D7"
+  },
+  {
+    "text": "DESIGN PROOF / QR PENDING",
+    "x_mm": 317,
+    "baseline_y_mm": 589,
+    "font": "Space Grotesk",
+    "size_pt": 7.5,
+    "weight": "500",
+    "style": "normal",
+    "color": "#B8A5ED"
+  }
+]

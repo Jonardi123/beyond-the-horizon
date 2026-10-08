@@ -1,0 +1,100 @@
+{
+  "canvas": {
+    "width_mm": 420,
+    "height_mm": 594,
+    "orientation": "portrait",
+    "bleed_mm": 0,
+    "safe_margin_mm": 14
+  },
+  "status": "Editable Canva A2 proof created. Public GitHub publication approved; the final QR requires verified GitHub Pages deployment.",
+  "colors": {
+    "background": "#07121F",
+    "card": "#102132",
+    "text": "#EDF4F8",
+    "muted": "#B5C5D2",
+    "cyan": "#7ED5D7",
+    "violet": "#B8A5ED",
+    "advantage": "#A4DAB8",
+    "risk": "#E9BC98"
+  },
+  "fonts": {
+    "headings": "Space Grotesk",
+    "body": "DM Sans",
+    "accent": "Cormorant Garamond"
+  },
+  "type_pt": {
+    "title_line_1": 81,
+    "title_line_2": 105,
+    "subtitle": 18,
+    "region_heading": 22,
+    "body": 16,
+    "column_labels": 10.5,
+    "annotations": 9.5,
+    "photo_credits": 7.5,
+    "conclusion": 18,
+    "cta": 16
+  },
+  "header": {
+    "x_mm": 14,
+    "y_mm": 12,
+    "width_mm": 392,
+    "height_mm": 111
+  },
+  "hero_photo": {
+    "file": "assets/earth.jpg",
+    "x_mm": 150,
+    "y_mm": 0,
+    "width_mm": 270,
+    "height_mm": 123,
+    "note": "Decorative hero crop. Text is a separate layer on an opaque navy area."
+  },
+  "regions": {
+    "first_y_mm": 133,
+    "row_height_mm": 64,
+    "row_pitch_mm": 69.5,
+    "photo_x_mm": 14,
+    "photo_width_mm": 94,
+    "content_x_mm": 118,
+    "content_width_mm": 288,
+    "column_width_mm": 88,
+    "column_gap_mm": 12
+  },
+  "footer": {
+    "x_mm": 14,
+    "y_mm": 493,
+    "width_mm": 392,
+    "height_mm": 87
+  },
+  "qr": {
+    "x_mm": 342,
+    "y_mm": 511,
+    "width_mm": 52,
+    "height_mm": 52,
+    "error_correction": "H",
+    "quiet_zone_modules": 4,
+    "background": "#FFFFFF",
+    "status": "EMPTY UNTIL VERIFIED LIVE URL"
+  },
+  "layer_groups": [
+    "Background",
+    "Hero photograph",
+    "Mission heading",
+    "Title line 1",
+    "Title line 2",
+    "Subtitle",
+    "Exhibition question",
+    "Region 01",
+    "Region 02",
+    "Region 03",
+    "Region 04",
+    "Region 05",
+    "Conclusion",
+    "Scientific exploration definition",
+    "QR panel",
+    "QR symbol",
+    "Call to action",
+    "Sources and credits"
+  ],
+  "editing_rule": "Keep each text block, photo, separator, and QR element separate. Do not use a flattened full-poster image as the Canva design.",
+  "print_rule": "Final Canva export: PDF Print, A2 trim, no crop marks or bleed unless the printer requests them. If bleed is requested, extend background and photography into bleed while retaining the A2 TrimBox. Use CMYK only with the printer's supported workflow."
+}

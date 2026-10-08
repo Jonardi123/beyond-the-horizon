@@ -1,4 +1,5 @@
 import { motion, useReducedMotion } from 'framer-motion';
+import { assetUrl } from './assets';
 import { Orbit, Play, Rocket, Waves, Snowflake, Trees, Mountain, Compass, Mouse } from 'lucide-react';
 
 export const regionMenu = [
@@ -37,11 +38,11 @@ export default function Hero({ onPresent, onRegion }: { onPresent: () => void; o
         </div>
         <div className="hero-meta"><span>GRADE 10 ENGLISH</span><i /><span>15 SLIDES</span><i /><span>5 FRONTIERS</span></div>
       </motion.div>
-      <motion.div className="hero-coordinate" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: .7 }}><span>OUR HOME. OUR STARTING POINT.</span><div>EARTH <span>↗</span></div><p>So much left to discover.</p></motion.div>
+      <motion.div className="hero-coordinate" initial={reduced ? false : { opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: .7 }}><span>OUR HOME. OUR STARTING POINT.</span><div>EARTH <span>↗</span></div><p>So much left to discover.</p></motion.div>
     </div>
     <div className="frontier-menu page-width" aria-label="Choose an exploration region">
       {regionMenu.map((r, i) => <button key={r.id} className={`frontier-card frontier-${r.id}`} onClick={() => onRegion(r.id)} style={{ '--region-color': r.color } as React.CSSProperties}>
-        <div className="frontier-card-photo" style={{ backgroundImage: `url(/assets/${r.id}.webp)` }} aria-hidden="true" />
+        <div className="frontier-card-photo" style={{ backgroundImage: `url(${assetUrl(`assets/mobile/${r.id}.webp`)})` }} aria-hidden="true" />
         <div className="frontier-top"><r.icon size={23} aria-hidden="true" /><span>0{i + 1}</span></div>
         <h2>{r.title}</h2><p>{r.label}</p>
       </button>)}

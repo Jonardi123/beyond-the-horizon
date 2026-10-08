@@ -14,6 +14,7 @@ export const sources: Source[] = [
   { id: 'biodiversity', organization: 'Smithsonian Tropical Research Institute', title: 'Biodiversity', url: 'https://stri.si.edu/discipline/biodiversity', supports: 'Species discovery and the scientific study of tropical biodiversity.' },
   { id: 'forest-census', organization: 'Smithsonian ForestGEO', title: 'Climate and 35 years of forest observations', url: 'https://forestgeo.si.edu/demographic-trends-and-climate-over-35-years-barro-colorado-50-ha-plot', supports: 'The 1982 tree census and long-term research at Barro Colorado Island, Panama.' },
   { id: 'plant-research', organization: 'Royal Botanic Gardens, Kew', title: 'Into the wild: plant drug discovery', url: 'https://www.kew.org/read-and-watch/plant-medicine-drug-discovery', supports: 'Plant research, traditional knowledge, and fieldwork in remote forests.' },
+  { id: 'forest-sensing', organization: 'Royal Botanic Gardens, Kew', title: 'Spatial Analysis and Data Science', url: 'https://www.kew.org/science/our-science/departments/ecosystem-stewardship/spatial-analysis-and-data-science', supports: 'Remote sensing and spatial data support forest and biodiversity research.' },
   { id: 'everest', organization: 'Royal Geographical Society', title: 'Everest 1953', url: 'https://www.rgs.org/our-collections/buy-and-license-images/platinum-prints/everest-1953', supports: 'The first confirmed Everest summit by Tenzing Norgay and Edmund Hillary.' },
   { id: 'altitude', organization: 'US National Park Service', title: 'Mountaineering medical issues', url: 'https://www.nps.gov/dena/planyourvisit/part2medicalissues.htm', supports: 'Altitude illness, gradual ascent, cold injuries, and the importance of descent.' },
 ];
@@ -80,7 +81,7 @@ export const regions: Region[] = [
       { title: 'Damage from fieldwork', detail: 'Clearing paths and taking too many samples can disrupt the forest.', solution: 'Use existing routes, small teams, camera traps, and careful sampling with research permits.' },
       { title: 'Respect for communities', detail: 'Research can ignore the rights and knowledge of local people.', solution: 'Seek community agreement, credit local knowledge, and share findings and benefits fairly.' },
     ],
-    fact: 'Smithsonian researchers study how rainforest species evolved and continue to identify species new to science. Local people may already know them.', factSource: 'biodiversity', sourceIds: ['biodiversity','forest-census','plant-research'],
+    fact: 'Smithsonian researchers study how rainforest species evolved and continue to identify species new to science. Local people may already know them.', factSource: 'biodiversity', sourceIds: ['biodiversity','forest-census','plant-research','forest-sensing'],
     purpose: 'At Barro Colorado Island in Panama, a tree census in 1982 began a long record of forest change. Returning to the same place can be as valuable as a new expedition.'
   },
   {
@@ -120,7 +121,7 @@ export const timeline = [
 
 export const technologies = [
   { name: 'Robotic explorers', icon: 'robot', text: 'Rovers and underwater ROVs reach dangerous places while people control them from a safer location.', example: 'Mars & the deep ocean', sources: ['mars','ocean-tech'] },
-  { name: 'Maps & remote sensing', icon: 'satellite', text: 'Satellites, sonar, and cameras help teams study landscapes and plan routes before entering the field.', example: 'From glaciers to the seafloor', sources: ['mars','ocean-tech'] },
+  { name: 'Maps & remote sensing', icon: 'satellite', text: 'Satellites, sonar, and cameras help teams study landscapes and plan routes before entering the field.', example: 'From glaciers to the seafloor', sources: ['mars','ocean-tech','forest-sensing'] },
   { name: 'Protection & planning', icon: 'shield', text: 'Tested equipment, backup supplies, weather checks, and communication reduce the chance of an emergency.', example: 'Every expedition', sources: ['radiation','altitude','polar-care'] },
   { name: 'Shared knowledge', icon: 'people', text: 'Scientists, local guides, and communities can share skills, costs, and evidence. Cooperation improves decisions.', example: 'A common responsibility', sources: ['polar-care','plant-research'] },
 ];

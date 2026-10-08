@@ -1,94 +1,136 @@
 # Beyond the Horizon: Exploring the Unknown
 
-An interactive Grade 10 English project about responsible exploration. Built with React, TypeScript, Vite, Tailwind CSS, Framer Motion, and Lucide icons. A local SVG map uses accurate Natural Earth geometry, so no online map tiles or API keys are needed.
+A museum-inspired school exhibition about the benefits, risks, and responsibilities of exploration. Five environments connect a physical A2 poster with an interactive Grade 10 English website.
 
-## Start locally
+**Stack:** React 19, TypeScript, Vite, Tailwind CSS, Framer Motion, and Lucide icons. The SVG world map uses Natural Earth geometry. Content, fonts, photographs, and map data are local; no API keys or paid map services are required.
 
-Use Node.js **22.12 or later** (a current LTS release is recommended) and npm. From this project folder:
+## Exhibition status
+
+The GitHub account has been verified as **Jonardi123**. The requested public repository is `Jonardi123/beyond-the-horizon`. The owner approved public creation, source upload, and GitHub Pages activation on 8 October 2026. Deployment verification is in progress. No Pages URL or QR code is represented as live until publication and validation finish.
+
+The A2 design proof is in `poster/previews/`. An actual editable Canva design has also been created privately. The QR panel is reserved until the deployed website is verified. Canva links and editing transactions are kept out of the public source tree.
+
+## Run locally
+
+Requires Node.js **22.12 or later** and npm. The deployment workflow uses Node 24.
 
 ```bash
 npm ci
 npm run dev
 ```
 
-Open the Local URL printed in the terminal (normally http://localhost:5173). The exact folder on this computer is:
+Open **http://localhost:5173/beyond-the-horizon/**, or the Local URL printed by Vite. Keep the terminal running. On this computer, the existing project lives at:
 
-```bash
-cd /home/jonard/Documents/Codex/2026-10-08/codex-project-beyond-the-horizon-an/outputs/beyond-the-horizon
-npm ci
-npm run dev
+```text
+/home/jonard/Documents/Codex/2026-10-08/codex-project-beyond-the-horizon-an/outputs/beyond-the-horizon
 ```
 
-The installation requires an internet connection once. All lesson content, map geometry, fonts, and photos are stored in the project and work without external services afterward. No credentials or API keys are needed.
-
-## Production and classroom backup
-
-```bash
-npm run build
-npm run preview
-```
-
-Open http://localhost:4173. The build generates a PDF with **15 slides plus three reference/credit pages** and a service worker that caches every local file. Wait for **“Ready for offline visits”** in the footer before relying on the hosted website offline. External source websites still need internet access.
-
-The included `dist` folder is a ready-built copy. On a classroom computer with Python 3, serve it without installing Node or dependencies:
-
-```bash
-python3 -m http.server 4173 --directory dist
-```
-
-Open http://localhost:4173. Keep the terminal running. Use a local HTTP server rather than double-clicking `dist/index.html`, because browser security restricts JavaScript modules under `file://`.
-
-You can also use `public/Beyond-the-Horizon.pdf` as a completely standalone presentation backup.
-
-## Present
-
-Choose **Start presentation** or **Presentation mode**. The website requests browser full screen; if the browser refuses it, the slide interface still works.
-
-- Left/right arrows or Page Up/Page Down: previous/next slide.
-- Home/End: first/last slide.
-- N: show/hide speaker notes.
-- Escape: leave presentation. Some browsers first leave full screen; press Escape again to close the slide interface.
-- The slide menu jumps to any of the 15 slides.
-- **Present this region** begins at the selected region’s slide.
-- The final slide can open the classroom quiz.
-
-Hide notes before projecting if you do not want the class to see the script. Practice with `SPEAKING_SCRIPT.md`; the website also downloads a plain-text copy. Suggested speaking time is about 8–10 minutes, plus questions or quiz.
-
-## Explore and discuss
-
-Choose a frontier from the opening cards, region buttons, or the world map. Each region includes a real photograph, a scientific purpose, advantages and disadvantages, three problem/solution cards, a verified fact, and linked references. The map markers represent **example locations**, not the entire regions; space is shown separately from Earth.
-
-The timeline has six researched milestones. The comparison chart can show all challenges or one lens, and selecting a frontier reveals its benefits, risks, and a response. Ratings are explicitly **classroom discussion judgments**, not scientific measurements.
-
-The quiz has five multiple-choice questions, immediate explanations, answer locking, a final score, review, and reset. It has no timer.
-
-Ambient sound is synthesized locally using the Web Audio API, disabled by default, and controlled from the footer. It stops when the browser tab becomes hidden.
-
-## PDF and printing
-
-- **Download slide PDF** provides the checked, fixed-layout backup. It is regenerated from the lesson data every build.
-- **Print / save as PDF** prints the full slide deck using a clean landscape layout. In your browser, choose “Save as PDF.”
-- Check **Include speaker notes when printing** for rehearsal handouts.
-- For the best classroom display, use the interactive presentation mode or the downloadable PDF. Browser print layouts can vary slightly by browser.
-
-## Verification
+## Build and verify
 
 ```bash
 npm test
 npm run build
+npm run preview
 ```
 
-The interaction tests cover solution cards, mixed quiz scoring and reset, slide navigation/notes/boundaries/exit, keyboard map controls, and comparison filtering. Production uses local assets only. Reduced-motion preferences are respected; the presentation has a focus trap and background content is inert while it is open.
+Open **http://localhost:4173/beyond-the-horizon/**. The build type-checks the project, generates the 15-slide PDF with three reference/credit pages, compiles the website, prepares its offline cache, and checks that all HTML and cache asset paths remain within the configured base directory.
 
-## Edit the lesson
+The five integration tests cover problem/solution cards, mixed quiz scoring and reset, slide navigation/notes/boundaries/exit, keyboard map selection, and comparison filtering.
 
-- `src/data.ts`: region content, concise slide arguments, timeline, sources, quiz, and speaking notes.
-- `src/Presentation.tsx`: slide layouts and presentation controls.
-- `src/Exploration.tsx`: map, region details, comparison, and timeline.
-- `src/styles.css`: theme, responsive layouts, atmosphere effects, and print styling.
-- `scripts/build-pdf.mjs`: the standalone PDF backup.
-- `scripts/build-offline.mjs`: production offline caching.
+## GitHub Pages
 
-Run `npm run build` after changes so the PDF and offline cache match the website. Core sources were checked on **8 October 2026**. The project distinguishes scientific research from tourism and recreational mountaineering, and avoids unverified exploration percentages and invented statistics.
+The Vite base defaults to **`/beyond-the-horizon/`**. Images, the downloadable PDF, the service worker, and offline navigation all respect this base. For a root-domain host, set `VITE_BASE_PATH=/` in the build environment.
 
-See `IMAGE_CREDITS.md` for image sources, license links, and crop/resize notices. The Antarctica image derivative remains under CC BY-SA 4.0; the rainforest photograph is Queensland, not the Amazon. No photo is presented as a reconstruction of a historical event.
+The committed workflow `.github/workflows/deploy.yml`:
+
+1. Checks out the approved `main` branch.
+2. Installs exactly the locked npm dependencies.
+3. Runs interaction tests and the production build.
+4. Validates local asset paths.
+5. Uploads only `dist` as the Pages artifact.
+6. Deploys through the `github-pages` environment.
+
+Use **Settings → Pages → Build and deployment → Source → GitHub Actions**. Normal changes to `main` trigger publication; documentation and poster-only changes do not rebuild the site. The workflow can also be started manually. Official actions are pinned to verified commit SHAs.
+
+After publication, obtain the actual URL from GitHub's Pages/deployment result and check it anonymously in a browser before encoding it in a QR code. `DEPLOYMENT.md` records the approval and verification process.
+
+## Mobile and classroom use
+
+The layout supports narrow phone screens, touch controls, safe-area insets, and reduced-motion preferences. Smaller local photographs are selected on phones, including a lighter Earth hero. Touch screens avoid hover zoom and expensive blur effects. The layout and core navigation have been checked at 320 px and 390 px widths in Chromium. Physical iOS Safari and Android Chrome tests must be recorded separately; a viewport test is not a physical-device test.
+
+Choose **Start presentation** for 15 slides, arrows, progress, slide selection, and a complete speaking script. Full screen is optional; the slide interface still works if a mobile browser does not support the Fullscreen API.
+
+- Left/right or Page Up/Page Down: previous/next slide.
+- Home/End: first/last slide.
+- N: show/hide speaker notes.
+- Escape: leave the presentation. A browser may first exit full screen.
+- **Present this region** jumps to that region's slide.
+
+The classroom quiz has five questions, immediate feedback, answer locking, a final score, review, and reset. Ambient sound is disabled by default and stops when the tab becomes hidden.
+
+Use `SPEAKING_SCRIPT.md` to rehearse. A typical delivery takes about 8–10 minutes plus discussion or quiz. The website can download the script, print the slides, or include notes in a rehearsal handout.
+
+## Offline backup
+
+After an online visit, wait for **Ready for offline visits** in the website footer. Its service worker caches local lessons, images, fonts, map geometry, and PDF for later use. External reference websites require internet access. Private/incognito browsers or browsers that clear site storage may remove the cache.
+
+For a separate classroom copy that can run without internet access, prepare it once:
+
+```bash
+npm run build:classroom
+```
+
+This creates `classroom/` with root-relative asset paths and leaves the Pages build in `dist/`. Copy `classroom/` to the classroom computer and serve it with Python 3:
+
+```bash
+python3 -m http.server 4173 --directory classroom
+```
+
+On Windows, `py -m http.server 4173 --directory classroom` can be used instead. Open **http://localhost:4173/**. A local HTTP server is required; double-clicking an HTML file does not reliably load JavaScript modules. The standalone presentation PDF also works without a browser or server.
+
+## A2 poster
+
+```text
+poster/
+  assets/       Original-resolution photographs and source/license manifest
+  fonts/        Matching local fonts with their SIL license files
+  print/        Final print files after website and QR validation
+  previews/     A2 design proof and smaller review assets
+  qr-code/      Verified destination, QR files, and decoding checks
+  content.json  Proofread English copy and primary references
+  layout.json   Exact A2 size, margins, type, colors, and element positions
+  build-poster.py
+```
+
+The poster has a **420 × 594 mm portrait** trim size and a 14 mm safe margin. Text is vector; photographs are checked for effective resolution in their frames. Five region rows distinguish advantages, disadvantages, and a response to the problem. The conclusion is balanced and distinguishes scientific research from recreation.
+
+Install `poster/requirements.txt` in a Python virtual environment, then generate the review proof:
+
+```bash
+python poster/build-poster.py
+```
+
+`--final` is blocked without a deployment record that confirms anonymous HTTP access and browser validation. The final QR uses error correction H, a four-module white quiet zone, and a 52 mm square frame. PNG decoding and decoding from the exported poster must match the exact live URL.
+
+The PDF/SVG files are Canva preparation assets. The final requested deliverable is the editable Canva project and its **PDF Print** export. Do not label an external PDF as a Canva export. For print, use A2, avoid flattening the editable master, and add crop marks/bleed only if requested by the printer. If the chosen printer supports CMYK and Canva offers it, use that workflow and inspect its proof for color shifts.
+
+## Content and references
+
+Research was checked on 8 October 2026. Facts cite NASA, NOAA, British Antarctic Survey, Smithsonian, Kew, National Park Service, Royal Geographical Society, and Norwegian Polar Institute. Full links and the claims they support are in the website's **Sources** section and the PDF reference appendix.
+
+The project avoids invented statistics and unverified percentages. Comparison ratings are explicitly classroom discussion judgments, not measured data. Scientific exploration has a research purpose. Tourism and recreational mountaineering have different goals. Rainforest research must respect local communities and their existing knowledge.
+
+See `IMAGE_CREDITS.md` and `poster/assets/credits.json` for image attribution and licenses. The Antarctic photo retains CC BY-SA 4.0; the rainforest photo retains CC BY 3.0. The rainforest photograph shows Queensland, not the Amazon. Apollo 17 imagery is captioned as 1972 even when shown alongside a different historical milestone.
+
+## Edit the project
+
+- `src/data.ts`: region content, sources, quiz, timeline, and speaking notes.
+- `src/assets.ts`: deployment-safe public asset URLs and responsive image variants.
+- `src/Exploration.tsx`: map, region details, timeline, and comparisons.
+- `src/Presentation.tsx`: slide content, controls, and print layout.
+- `src/styles.css`: theme, responsive layouts, atmosphere, and print styling.
+- `scripts/build-pdf.mjs`: presentation PDF.
+- `scripts/build-offline.mjs`: versioned offline cache under the Vite base.
+- `poster/content.json` and `poster/layout.json`: exhibition poster content and layout.
+
+Rebuild after changes so the website, PDF, and offline cache stay consistent. Keep secrets and authentication files out of this repository; `.gitignore` excludes them, build output, local caches, and Canva scratch data.
