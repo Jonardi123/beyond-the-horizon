@@ -1,0 +1,50 @@
+[
+  {
+    "file": "earth.webp",
+    "title": "Hello, World — Earth from Artemis II, April 2, 2026",
+    "credit": "NASA / Reid Wiseman / Artemis II",
+    "source": "https://www.nasa.gov/image-article/hello-world/",
+    "license": "Public domain (NASA astronaut photograph)",
+    "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+  },
+  {
+    "file": "space.webp",
+    "title": "Apollo 17 lunar rover in the Taurus-Littrow Valley",
+    "credit": "NASA/GSFC/Arizona State University",
+    "source": "https://science.nasa.gov/resource/apollo-17-landing-site-the-taurus-littrow-valley/",
+    "license": "Public domain (NASA Apollo photograph)",
+    "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+  },
+  {
+    "file": "ocean.webp",
+    "title": "Atolla jellyfish at 880 meters depth, Windows to the Deep 2018",
+    "credit": "NOAA Ocean Exploration, Windows to the Deep 2018",
+    "source": "https://oceanexplorer.noaa.gov/multimedia/daily-image-media-20210319/",
+    "license": "Public domain; preserve the listed NOAA image credit",
+    "licenseUrl": "https://oceanexplorer.noaa.gov/faqs/"
+  },
+  {
+    "file": "polar.webp",
+    "title": "Blue Ice in Antarctica, Livingston Island, November 2012",
+    "credit": "Anne Dirkse (www.annedirkse.com), via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Blue_Ice_in_Antarctica.jpg",
+    "license": "Creative Commons Attribution-ShareAlike 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "file": "rainforest.webp",
+    "title": "Rainforest canopy, Bellenden Ker, North Queensland, November 1989",
+    "credit": "Robert Kerton / CSIRO, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_1336_Rainforest_Canopy.jpg",
+    "license": "Creative Commons Attribution 3.0 Unported",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  {
+    "file": "mountain.webp",
+    "title": "Everest, Lhotse and Makalu from Gokyo Ri, April 2006",
+    "credit": "Gavin Challand (Gavidipus), via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Everest,_Lhotse_and_Makalu_from_Gokyo_Ri.jpg",
+    "license": "Released into the public domain by its author, worldwide",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Everest,_Lhotse_and_Makalu_from_Gokyo_Ri.jpg#Licensing"
+  }
+]
